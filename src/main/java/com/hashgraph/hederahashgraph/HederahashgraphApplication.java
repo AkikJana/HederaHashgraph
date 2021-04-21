@@ -13,6 +13,7 @@ public class HederahashgraphApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HederahashgraphApplication.class, args);
+		//an object of the hbar class is created which initializes an account on the hedera testnet
 		hbar node=new hbar();
 		try {
 			node.accountCreate();
